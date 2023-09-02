@@ -1,0 +1,90 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>NEOS Job #7599434</title>
+
+</head><body bgcolor="#ffffff">
+
+     <a href="https://neos-server.org/neos">
+          <img src="NEOS%20Job%20%237599434_files/neos_solvers_bannerfinal.jpg" alt="NEOS Server Home" border="0" vspace="4"></a>
+
+<p></p><hr><br>
+<pre>*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7599434
+   Password : mahIkKpY
+   User     : None
+   Solver   : lp:Gurobi:LP
+   Start    : 2019-10-13 03:48:55
+   End      : 2019-10-13 03:48:57
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+/opt/gurobi/latest/linux64/lib:/opt/gurobi/latest/linux64/lib:/opt/rh/python27/root/usr/lib64
+Load Avg: ( 11.56 , 11.87 , 11.77 )
+Read LP format model from file model.lp
+Reading time = 0.00 seconds
+: 4 rows, 9 columns, 16 nonzeros
+
+
+Checking threads settings... (NEOS allows a maximum of 4 threads)
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 4 rows, 9 columns and 16 nonzeros
+Variable types: 4 continuous, 5 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 7e+00]
+  Objective range  [1e-02, 1e+00]
+  Bounds range     [5e+01, 1e+03]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective -0.0000000
+Presolve removed 1 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 4 columns, 9 nonzeros
+Variable types: 0 continuous, 4 integer (0 binary)
+
+Root relaxation: objective 1.134615e+02, 2 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  113.46154    0    1   -0.00000  113.46154      -     -    0s
+H    0     0                     113.4500000  113.46154  0.01%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 64 available processors)
+
+Solution count 2: 113.45 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.134500000000e+02, best bound 1.134600000000e+02, gap 0.0088%
+
+
+********** Begin .sol file *************
+
+# Objective value = 113.45
+Pennies 0
+Nickels 0
+Dimes 2
+Quarters 53
+Dollars 100
+Cu 999.8
+Ni 46.9
+Zi 50
+Mn 30
+
+********** End .sol file ***************
+
+
+
+</pre><br>Additional Output: <a href="https://neos-server.org/neos/jobs/7590000/7599434-mahIkKpY-solver-output.zip">7599434-mahIkKpY-solver-output.zip</a><br>
+    <p></p><hr>
+    <p>
+    <a href="https://neos-server.org/neos">
+    <img src="NEOS%20Job%20%237599434_files/neos_home.jpg" alt="NEOS Server" border="0"></a>
+</p></body></html>
